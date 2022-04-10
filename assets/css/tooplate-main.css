@@ -1,10 +1,3 @@
-/* 
-
-Tooplate 2114 Pixie
-
-https://www.tooplate.com/view/2114-pixie
-
-*/
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -18,6 +11,11 @@ p {
 }
 a {
 	text-decoration: none!important;
+}
+
+td,th {
+  padding: 0.5em;
+  border: 1px solid rgba(0,0,0,0.2);
 }
 
 .copyright-text {
@@ -166,9 +164,7 @@ a {
 }
 
 /* Featured Style */
-.featured-items {
-	margin-bottom: 70px;
-}
+
 .featured-item {
 	border-radius: 5px;
 	border: 1px solid #eee;
@@ -458,6 +454,19 @@ a {
 #carousel {
 	margin-top: 20px;
 }
+
+.measures {
+	display: flex;
+}
+
+.measures table {
+	height: fit-content;
+}
+
+#measures-table {
+	width: 120px;
+}
+
 #carousel .slides li {
 	width: 150px!important;
 }
